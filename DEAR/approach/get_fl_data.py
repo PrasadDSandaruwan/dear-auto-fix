@@ -3,8 +3,11 @@ import subprocess
 from operator import itemgetter
 import random
 
-path = os.getcwd()
-path_p = os.path.abspath(os.path.dirname(os.getcwd()))
+# path = os.getcwd()
+# path_p = os.path.abspath(os.path.dirname(os.getcwd()))
+path = "/kaggle/working/dear-auto-fix/DEAR/approach"
+path_p = "/kaggle/working/dear-auto-fix/DEAR"
+
 projects = ["Chart", "Closure", "Lang", "Math", "Mockito", "Time"]
 bugs = [26, 133, 65, 106, 38, 27]
 folder = path + "/sbfl/defects4j_data"
