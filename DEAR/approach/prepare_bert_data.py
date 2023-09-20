@@ -84,5 +84,5 @@ def format_data(data_dir, path_to_data):
     print("\tCompleted!")
     
     
-path_ = os.path.abspath(os.path.dirname(os.getcwd()))
+path_ = "/kaggle/dear-auto-fix/DEAR"
 format_data(path_ + "/bert_data", path_ + "/bert_data")
